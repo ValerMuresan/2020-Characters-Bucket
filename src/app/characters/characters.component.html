@@ -1,0 +1,21 @@
+<h2>All Characters</h2>
+
+<div>
+  <label>Character name:
+    <input #characterName />
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(characterName.value); characterName.value=''">
+    Add
+  </button>
+</div>
+
+<ul class="characters">
+  <li *ngFor="let character of characters">
+     <a routerLink="/detail/{{character.id}}">
+      <span class="badge">{{character.id}}</span> {{character.name}}
+     </a>
+     <button class="delete" title="delete character"
+      (click)="delete(character)">x</button>
+  </li>
+</ul>
