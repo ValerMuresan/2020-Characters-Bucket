@@ -20,8 +20,6 @@ It acquires and displays a list of characters, edits a selected character's deta
 
 ## Run The Program
 
-+ Live [version](https://valermuresan.github.io/2020-Characters-Bucket/)
-
 + Locally
 
   + Clone the project's [repository](https://github.com/ValerMuresan/2020-Characters-Bucket.git)
