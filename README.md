@@ -20,11 +20,11 @@ It acquires and displays a list of characters, edits a selected character's deta
 
 ## Run The Program
 
-+ Live [version]()
++ Live [version](https://valermuresan.github.io/2020-Characters-Bucket/)
 
 + Locally
 
-  + Clone the project [repository]()
+  + Clone the project's [repository](https://github.com/ValerMuresan/2020-Characters-Bucket.git)
   + Install [Node.js](https://nodejs.org/en/)
   + Install npm [Package Manager](https://www.npmjs.com/package/npm)
   + Run in Node terminal `ng serve`
